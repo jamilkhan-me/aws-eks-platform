@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Terraform lock file is intentionally tracked
+# .terraform.lock.hcl should NOT be ignored
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
